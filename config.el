@@ -88,7 +88,3 @@
                (default-directory (file-name-directory file)))
           (compile (format "%s && %s" compile-cmd run-cmd)))))
 
-
-(map! :leader
-      :desc "Toggle between vterm and file"
-      "t t" #'other-window)
